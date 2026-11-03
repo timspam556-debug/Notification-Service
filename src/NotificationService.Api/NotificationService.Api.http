@@ -1,0 +1,8 @@
+@baseUrl = http://localhost:5080
+
+### API должен ответить 200 OK и Healthy
+GET {{baseUrl}}/health
+
+### Неизвестный маршрут должен вернуть 404 в формате Problem Details
+GET {{baseUrl}}/does-not-exist
+Accept: application/json

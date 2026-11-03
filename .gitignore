@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.dotnet/
+.tools/
+.nuget/
+TestResults/
+.vs/
+*.user
+.env
